@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('fe-test'){
             steps{
-                sh "bash frontendtesting.sh"
+                sh "bash frontend-test.sh"
             }
         }
         stage('be-test'){
