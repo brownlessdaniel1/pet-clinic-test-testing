@@ -1,7 +1,7 @@
 sudo apt-get update -y
 sudo apt-get install maven -y
-echo ##################
+echo ------------------------------
 mvn --version
-echo #################
+echo -----------------------------
 cd spring-petclinic-rest-master
 mvn test
