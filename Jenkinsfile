@@ -8,7 +8,7 @@ pipeline{
         }
         stage('be-test'){
             steps{
-                sh "bash backendtesting.sh"
+                sh "bash backend-test.sh"
             }
         }
         stage('asdf'){
