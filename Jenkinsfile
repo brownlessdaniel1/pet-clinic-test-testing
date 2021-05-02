@@ -11,7 +11,6 @@ pipeline{
                 sh "bash backendtesting.sh"
             }
         }
-        stage
         stage('asdf'){
             steps{
                 sh "echo woooooooooooooooooOooooooooooooOoOoOOooooooooo"
