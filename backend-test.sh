@@ -1,7 +1,6 @@
 sudo apt-get update -y
 sudo apt-get install maven -y
-echo ------------------------------
+sudo apt install openjdk-8-jre
 mvn --version
-echo -----------------------------
 cd spring-petclinic-rest-master
 mvn test
